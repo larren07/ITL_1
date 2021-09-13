@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    background:black;
+    width: 20rem;
+    min-height: 100%;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.sidebar h2{
+    text-align: center;
+    font-size: 2rem;
+    color:white;
+    padding: 2rem;
+}
+
+.sidebar ul li{
+    margin: 2.5rem 0;
+    font-size: 2rem;
+
+}
+
+.sidebar ul li a{
+    color:white;
+    padding:0 3rem;
+}
+
+.sidebar ul li a:hover{
+    color:darkblue;
+    margin-left: 2rem;
+    transition:0.4s;
+
+}
+
+.main{
+    text-align: center;
+    margin-left: 20rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    font-size: 2rem;
+
+
+}
+
+.books{
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+}
+
+
+.box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    border-radius: 1rem;
+    border-width: 1rem;
+    box-shadow: 15px 17px 30px -2px rgba(0,0,0,0.91);
+-webkit-box-shadow: 15px 17px 30px -2px rgba(0,0,0,0.91);
+-moz-box-shadow: 15px 17px 30px -2px rgba(0,0,0,0.91);
+}
+
+
+.title h1{
+    font-size: 3rem;
+    margin:2rem;
+}
+
+.title h3{
+    margin:2rem;
+    font-size: 2rem;
+}
+.title input{
+    width: 90%;
+    padding: 1rem;
+    margin:2rem 0;
+    border:none;
+    border-bottom: 0.1rem solid black;
+    background: transparent;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.title button{
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 1rem;
+}
+
+.title button:hover{
+    transform: scale(1.2);
+}
+
+.search-txt{
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    transition: 0.4s;
+    line-height: 4rem;
+}
