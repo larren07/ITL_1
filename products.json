@@ -1,0 +1,56 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Lord Of The Rings",
+            "price": 500,
+            "image": "./images/lotr.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Game of Thrones",
+            "price": 950,
+            "image": "./images/got.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Kuroko No Basket",
+            "price": 750,
+            "image": "./images/knb.jpg"
+        },
+        {
+            "id": 4,
+            "title": "DaVinci Code",
+            "price": 999,
+            "image": "./images/code.jpg"
+        },
+        {
+            "id": 5,
+            "title": "The Last Kingdom",
+            "price": 250,
+            "image": "./images/tlk.jpg"
+
+        },
+        {
+            "id": 6,
+            "title": "Naruto",
+            "price": 250,
+            "image": "./images/naruto.png"
+
+        },
+        {
+            "id": 7,
+            "title": "Famous Five",
+            "price": 250,
+            "image": "./images/5.jpg"
+
+        },
+        {
+            "id": 8,
+            "title": "Haunting of Hill House",
+            "price": 250,
+            "image": "./images/house.jpg"
+
+        }
+    ]
+}

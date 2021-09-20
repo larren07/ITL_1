@@ -1,68 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library Portal</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="./css/stylescart.css" />
+  <title>Shopping Cart Project</title>
 </head>
+
 <body>
-    
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__center container">
+      <div class="nav__logo">
+        <h1>E-BOOK PORTAL</h1>
+      </div>
 
-        <aside class="sidebar">
-            <h2>E-BOOK PORTAL</h2>
-            <ul class="nav">
-                <li>
-                    <a href="home.html">
-                        <i class="fas fa-home"></i>
-                        <span>HOME</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="login.html">
-                        <i class="fas fa-sign-in-alt"></i>
-                        <span>LOGIN</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-registered"></i>
-                        <span>REGISTER</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-search"></i>
-                        <span>SEARCH</span>
-                    </a>
-                </li>
+      <ul class="nav__list">
+        <a href="home.html" class="home">Home</a>
+        <div class="cart__icon">
+          <h2>cart</h2>
+          <span class="item__total">0</span>
+        </div>
+      </ul>
 
-                <li>
-                    <a href="cart.html">
-                        <i class="fas fa-shopping-cart"></i>
-                        <span>CART</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="logout.html">
-                        <i class="fas fa-sign-out-alt"></i>
-                        <span>LOGOUT</span>
-                    </a>
-                </li>
-            </ul>
-        </aside>
+      
+    </div>
+  </nav>
+  <!-- Navigation -->
 
-        <main class="main">
-            <h2>CART</h2>
+  <!-- Products -->
+  <section class="products">
+    <div class="product__center">
+      
+    </div>
+  </section>
 
-            <p>
-                This is where the books that the user has borrowed/purchased will be shown
-            </p>
-        </main>
+  <section class="cart__overlay">
+    <div class="cart">
+      <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+      <h1>Your Cart</h1>
+      <div class="cart__centent">
+        
+      </div>
 
+      <div class="cart__footer">
+        <h3>Total: <span class="cart__total">0</span></h3>
+        <button class="clear__cart btn">Clear Cart</button>
+      </div>
+    </div>
+  </section>
 
-
+  <script src="./js/app.js"></script>
 </body>
+
 </html>

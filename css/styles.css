@@ -12,7 +12,14 @@ html{
 body{
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
+    background-image: url("../images/output-onlineimagetools.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
+
 
 .sidebar{
     position: fixed;
@@ -54,7 +61,7 @@ body{
     margin-left: 20rem;
     margin-top: 4rem;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 4rem;
 
 
 }
@@ -75,6 +82,7 @@ body{
 }
 
 .title{
+    background-color: white;
     text-align: center;
     border-radius: 1rem;
     border-width: 1rem;
@@ -116,6 +124,7 @@ body{
     margin-bottom: 1rem;
 }
 
+
 .title button:hover{
     transform: scale(1.2);
 }
@@ -125,4 +134,11 @@ body{
     font-size: 1.6rem;
     transition: 0.4s;
     line-height: 4rem;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20rem;
 }
